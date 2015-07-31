@@ -58,7 +58,7 @@ public class Converters {
 		for (char c : time.toCharArray()) {
 			if (Character.isDigit(c)) {
 				formatTime += c;
-			} else if (Character.isAlphabetic(c)) {
+			} else if (Character.isLetter(c)) { 
 				for (TimeType tt : TimeType.values()) {
 					if (c == tt.getTimeChar()) {
 						finalTime += Long.valueOf(formatTime) * tt.getAmountMillis();
