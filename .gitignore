@@ -60,6 +60,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+Export.jardesc
 
 # External tool builders
 .externalToolBuilders/
